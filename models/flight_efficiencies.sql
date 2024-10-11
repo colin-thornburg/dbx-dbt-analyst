@@ -16,7 +16,7 @@ SELECT
         ELSE 'Long Delay'
     END AS delay_category,
     fcap.cabin_class,
-    fcap.authorized_pax_qty,
+  
     fcap.airline_code,
     fcap.flight_number,
     fcap.departure_date,
