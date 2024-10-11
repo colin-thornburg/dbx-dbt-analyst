@@ -1,5 +1,5 @@
 models:
-  - name: sentiment_analysis
+  - name: package_flight_surveys
     description: This model integrates survey responses with flight data to analyze customer sentiment based on comments and other survey details.
     columns:
       - name: flight_number
