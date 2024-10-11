@@ -1,0 +1,18 @@
+models:
+  - name: sentiment_analysis
+    description: This model integrates survey responses with flight data to analyze customer sentiment based on comments and other survey details.
+    columns:
+      - name: flight_number
+        description: The unique identifier for a flight, used to join survey and flight data.
+      - name: carrier_group
+        description: The airline carrier group associated with the flight.
+      - name: destination_airport
+        description: The airport where the flight is scheduled to land.
+      - name: surveyidentifier
+        description: A unique identifier for each survey conducted.
+      - name: surveyresponsebegintimestamp
+        description: The timestamp indicating when the survey response began.
+      - name: response_id
+        description: A unique identifier for each survey response.
+      - name: comment_txt
+        description: The text of the comment provided by the survey respondent, used for sentiment analysis.
