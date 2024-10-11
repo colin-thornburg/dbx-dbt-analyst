@@ -12,6 +12,7 @@ SELECT
     CASE
         WHEN fd.delay_minutes <= 15 THEN 'Short Delay'
         WHEN fd.delay_minutes <= 30 THEN 'Medium Delay'
+        WHEN fd.delay_minutes <= 45 THEN 'Long Delay'
         ELSE 'Long Delay'
     END AS delay_category,
     fcap.cabin_class,
